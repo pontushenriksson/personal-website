@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://pontushenriksson.com/sitemap.xml

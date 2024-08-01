@@ -1,0 +1,143 @@
+@use '../_variables' as *;
+@use '../_animations' as *;
+
+section#contact {
+  background-color: $purple;
+
+  form {
+    padding: 20px;
+
+    .form-group {
+      margin-bottom: 20px;
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+        color: $white;
+        font-weight: 600;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+        outline: none;
+      }
+
+      input:focus,
+      textarea:focus {
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      input[type='text'],
+      input[type='email'] {
+        height: 45px;
+      }
+
+      textarea {
+        resize: vertical;
+        min-height: 120px;
+      }
+    }
+
+    button.contactButton {
+      margin-top: 10px;
+      background-color: $orange;
+      color: $white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      font-weight: 600;
+      cursor: pointer;
+
+      &:hover {
+        color: $orange;
+        background-color: $white;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}
+
+.contact_content {
+  .displayEmail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-weight: 500;
+
+    a {
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-style: wavy;
+      text-decoration-color: $orange;
+      color: $dark-blue-secondary;
+    }
+  }
+}
+
+.contactHeader {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+
+  h2 {
+    color: $white;
+  }
+
+  p {
+    font-weight: 500;
+    max-width: 90vw;
+  }
+}
+
+.social-links {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 500;
+
+  span {
+    margin-bottom: 20px; // Optional: to give space between the text and the first icon.
+  }
+
+  .socialLinkGroup {
+    display: flex;
+    gap: 20px;
+    align-items: center; // Vertically centers the content of the flex container
+
+    .socialIcons {
+      width: 30px; // Adjust accordingly. This ensures that the icons take up consistent space, which aligns the text.
+      text-align: center; // Centers the icons in the given space
+      color: $dark-blue-secondary;
+    }
+
+    a {
+      color: $dark-blue-secondary;
+      text-decoration: none; // Removes underline from the link
+      transition: color 0.3s; // Optional: smooth color transition on hover
+
+      &:hover {
+        color: $orange; // Or any other color you'd like for hover
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .contactHeader {
+    p {
+      max-width: 60vw;
+    }
+  }
+}

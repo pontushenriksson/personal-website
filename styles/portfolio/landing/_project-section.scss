@@ -1,0 +1,73 @@
+@use '../_variables' as *;
+@use '../_animations' as *;
+
+section#projects {
+  background-color: $dark-blue-secondary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 0;
+
+  .project_content {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2 {
+    color: $white;
+  }
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+
+  img {
+    max-width: 90%;
+    max-height: 45vh;
+    object-fit: cover;
+  }
+
+  p {
+    max-width: 90%;
+    color: $white;
+  }
+
+  h3 {
+    color: $purple;
+  }
+
+  .project-thumbnail {
+    aspect-ratio: 16 / 9;
+    width: 90%;
+    height: auto;
+  }
+}
+
+.vide-container {
+  padding-top: 56.25%;
+  width: 100%;
+  height: 100%;
+
+  .project-youtube-video {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .project {
+    p {
+      max-width: 40%;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+@use '../_variables' as *;
+@use '../_animations' as *;
+
+main {
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  z-index: 2;
+}
+
+.left_landing_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+  align-items: flex-start;
+  max-width: 90vw;
+  color: $white;
+  margin-top: 20px;
+
+  p,
+  h1 {
+    max-width: 80vw;
+  }
+}
+
+.right_landing_content img {
+  height: 30vh;
+
+  aspect-ratio: 1/1;
+  border-radius: 25px;
+}
+
+@media screen and (min-width: 900px) {
+  main {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .left_landing_content {
+    p,
+    h1 {
+      max-width: 40vw;
+    }
+  }
+}
+
+.scroll_down_button {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: $orange;
+}
+
+.scrollIndicator {
+  width: 25px;
+  height: 37.5px;
+  border: 2px solid $white;
+  border-radius: 50px;
+  position: relative;
+}
+.scrollIndicator:before {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: $orange;
+  margin: auto;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  animation: AnimateScrollIndicator 1s linear infinite;
+}

@@ -1,0 +1,48 @@
+@use '../_variables' as *;
+@use '../_animations' as *;
+
+section#resume {
+  padding: 40px;
+}
+
+.resume_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .resumeImages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    gap: 5px;
+  }
+
+  h2 {
+    color: $white;
+  }
+
+  img {
+    max-width: 90vw;
+    max-height: 50vh;
+  }
+
+  a.resumeButton {
+    background-color: $orange;
+    color: $white;
+  }
+
+  a.resumeButton:hover {
+    color: $orange;
+    background-color: $white;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .resumeImages {
+    flex-direction: row !important;
+    gap: 40px;
+  }
+}

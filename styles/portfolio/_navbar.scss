@@ -1,0 +1,51 @@
+@use 'variables' as *;
+@use 'animations' as *;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background-color: $dark-blue;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    margin: 0;
+    padding-left: 0;
+  }
+}
+
+.large_nav {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  header {
+    padding: 40px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .large_nav {
+    display: flex;
+    ul {
+      display: flex;
+      gap: 20px;
+    }
+  }
+}
+
+#nav_name {
+  font-family: $philosopher-font;
+}

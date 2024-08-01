@@ -1,0 +1,78 @@
+@use '../_variables' as *;
+@use '../_animations' as *;
+
+section#certificates {
+  padding: 0 0 60px 0;
+  text-align: center;
+  background-color: $dark-blue-secondary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.certificates_content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  color: $white;
+
+  h2 {
+    color: $white;
+    font-size: 26px;
+  }
+}
+
+.cert {
+  margin-top: 40px;
+
+  img {
+    margin-top: 20px;
+    max-height: 40vh;
+    max-width: 80vw;
+    width: auto;
+  }
+}
+
+.best-certificates {
+  width: 80vw;
+}
+
+.all-certificates {
+  width: 80vw;
+  display: none;
+}
+
+Button.certificateButton {
+  margin-top: 20px;
+  background-color: $orange;
+  color: $white;
+}
+
+Button.certificateButton:hover {
+  color: $orange;
+  background-color: $white;
+}
+
+.best-certificates,
+.all-certificates {
+  h3 {
+    margin: 20px 0 8px 0;
+    color: $orange;
+    text-align: center;
+  }
+
+  .cert {
+    h3 {
+      margin: 20px 0 8px 0;
+      color: $white;
+      text-align: center;
+    }
+
+    h5,
+    h6 {
+      color: $purple;
+    }
+  }
+}
