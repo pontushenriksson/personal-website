@@ -1,0 +1,29 @@
+{
+  "podcast": {
+    "title": "Phoenix",
+    "description": "Every week, we'll share our experiences, the challenges we face, and the progress we make. It's a personal journey into our development process, filled with insights, stories, and plenty of tech talk. Join us for an inside look at our work and much more. We can't wait to share our adventure with you!",
+    "episodes": [
+      {
+        "number": 3,
+        "title": "Episode 3 Title",
+        "date": "YYYY-MM-DD",
+        "short_about": "A short description about Episode 3.",
+        "audio_file": "3.m4a"
+      },
+      {
+        "number": 2,
+        "title": "My other super great title",
+        "date": "YYYY-MM-DD",
+        "short_about": "A short description about Episode 2.",
+        "audio_file": "2.m4a"
+      },
+      {
+        "number": 1,
+        "title": "My super great title",
+        "date": "YYYY-MM-DD",
+        "short_about": "A short description about Episode 1.",
+        "audio_file": "1.m4a"
+      }
+    ]
+  }
+}
