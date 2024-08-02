@@ -29,5 +29,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Set the volume of the video to 50%
   var video = document.getElementById('personalTrailer');
-  video.volume = 0.5;
+  video.volume = 0.3;
 });
