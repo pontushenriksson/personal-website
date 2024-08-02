@@ -1,2 +1,54 @@
 // Import main styles
 @import '../main';
+
+// Reset default styles
+@import 'resets';
+
+// All variables, mixins and functions
+@import 'main-variables';
+
+/* --- [ All landing page scss ] --- */
+body {
+  background-color: black;
+  color: wheat;
+  margin: 2rem;
+  font-family: 'MerriweatherSans', sans-serif;
+}
+
+div.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+section.games {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+section.games div.gameLibrary {
+  margin: 4rem 0 2rem 0;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+.gameCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 1px solid #ccc;
+  padding: 10px;
+
+  img {
+    max-width: 100%;
+  }
+}

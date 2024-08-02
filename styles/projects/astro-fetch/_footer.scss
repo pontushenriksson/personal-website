@@ -1,0 +1,55 @@
+// All variables, mixins and functions
+@import 'variables';
+
+/* ----- [ astro-fetch/_footer.scss ] ----- */
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: $secondary-clr;
+  align-items: center;
+  padding: 2rem 0;
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  div.footer-header {
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+  }
+
+  div.footer-links {
+    width: 100vw;
+    margin-top: 2rem;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 5rem;
+
+      div.col-1 {
+        max-width: 400px;
+
+        a {
+          color: $accent-clr;
+          text-decoration: underline;
+
+          &:hover {
+            color: $secondary-accent-clr;
+            transition: 0.3s;
+          }
+        }
+      }
+
+      div.col-2,
+      div.col-3 {
+        display: grid;
+        gap: 1rem;
+      }
+    }
+  }
+}

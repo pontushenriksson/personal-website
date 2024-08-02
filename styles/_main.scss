@@ -1,12 +1,8 @@
 /* Reset default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import 'resets';
 
 /* All global variables, mixins and functions */
-/* Insert here */
+@import 'variables';
 
 /* Loading animation */
 @import 'loadingAnimation';

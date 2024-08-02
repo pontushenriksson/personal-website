@@ -1,0 +1,35 @@
+// All variables, mixins and functions
+@import 'variables';
+
+/* ----- [ astro-fetch/_navbar.scss ] ----- */
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  gap: 1rem;
+  background-color: $secondary-clr;
+
+  a.navGameName {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  a img {
+    height: 40px;
+    width: 40px;
+  }
+
+  ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+}
