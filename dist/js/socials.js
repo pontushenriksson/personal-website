@@ -26,4 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   updateTime();
   setInterval(updateTime, 60000); // Update every minute
+
+  // Set the volume of the video to 50%
+  var video = document.getElementById('personalTrailer');
+  video.volume = 0.5;
 });
