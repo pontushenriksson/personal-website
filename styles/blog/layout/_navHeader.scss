@@ -1,0 +1,44 @@
+/* ---- [ layout/_header.scss ] ----*/
+
+div.container > header {
+  background-color: $primary-color;
+  color: $text-color;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 40px;
+  flex-direction: column;
+
+  div.headerInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    text-align: center;
+    list-style: none; // Ensure no default list style
+    padding: 0; // Remove default padding
+  }
+
+  nav ul li a {
+    color: $primary-color;
+    background-color: $text-color;
+    display: block; // Ensure block-level link
+    text-align: center; // Center text
+    padding: 0.75rem 1rem; // Add padding for better click area
+    text-decoration: none; // Remove underline
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
