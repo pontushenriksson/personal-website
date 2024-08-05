@@ -14,10 +14,6 @@ A better Readme needs to created and everything inside this repository needs to 
 
 - All static content should be places in https://github.com/pontushenriksson/static-library and all content should therefore be moved into there before changing anything else.
 
-# portfolio-podcast
-
-A website that holds podcasting content
-
 # portfolio-tools
 
 Tools like calculator and other stuff that might be useful
@@ -25,10 +21,6 @@ Tools like calculator and other stuff that might be useful
 # portfolio-marketplace
 
 The marketplace website where people can purchase stuff from me like games, courses or books etc.
-
-# Personal portfolio
-
-Personal portfolio description... :p
 
 ## Current bugs:
 
@@ -43,10 +35,6 @@ Personal portfolio description... :p
 - Add a new Lotus image instead of the current LLS-vscode image
 - Add animations
 
-# links-portfolio-web
-
-A website that is used to display all links related to me.
-
 # TODO:
 
 - Add a on-hover background change on the buttons so that they get the color of the platform they refer to.
@@ -57,7 +45,3 @@ A website that is used to display all links related to me.
 # games-portfolio
 
 The portfolio holding all the games I have created and custom pages for all games.
-
-# Blog
-
-My blog website :)
