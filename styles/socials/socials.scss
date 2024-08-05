@@ -7,7 +7,7 @@
   --secondary-clr: #2b2b34;
   --stats-clr: #8c6d8b;
   --light-clr: #6e6e6e;
-  --background-img: url('../assets/socials/background.png');
+  --background-img: url('https://static.pontushenriksson.com/image/background/dottedSpace.png');
   --text-clr: #fff;
 
   /* Status colors */
@@ -55,7 +55,6 @@ a {
 
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: var(--accent-clr);
   background-image: var(--background-img);
   background-repeat: repeat;
   background-position: center center;
@@ -63,6 +62,7 @@ body {
   color: var(--text-clr);
   display: grid;
   place-items: center;
+  background-size: contain;
 }
 
 main {
