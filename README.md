@@ -50,9 +50,6 @@ A website that is used to display all links related to me.
 # TODO:
 
 - Add a on-hover background change on the buttons so that they get the color of the platform they refer to.
-- Fix profile image.
-- Fix sitemap.
-- Fix robots.txt.
 - Pick one of the two spotify cards that are currently on the page.
 - Create and add a video displaying my work.
 - MAKE STUDYPAL UF ONLINE AND CHANGE TO BRAND COLOR.
