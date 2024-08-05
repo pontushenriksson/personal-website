@@ -187,7 +187,7 @@ main > ul > li > div.play > div.playIcon {
   width: 30px;
   height: 30px;
   background: url('../assets/podcast/images/play-icon.svg') no-repeat center
-    center;
+    center; // Change out to fontawesome icon in the html instead
   background-size: contain;
   cursor: pointer;
   background-color: var(--blue-clr);
@@ -196,7 +196,7 @@ main > ul > li > div.play > div.playIcon {
 
 main > ul > li > div.play > div.playIcon.playing {
   background: url('../assets/podcast/images/pause-icon.svg') no-repeat center
-    center;
+    center; // Change out to fontawesome icon in the html instead
   background-size: contain;
   background-color: var(--blue-clr);
   border-radius: 0.5rem;
