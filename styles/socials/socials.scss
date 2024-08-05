@@ -55,7 +55,6 @@ a {
 
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: var(--accent-clr);
   background-image: var(--background-img);
   background-repeat: repeat;
   background-position: center center;
@@ -63,6 +62,7 @@ body {
   color: var(--text-clr);
   display: grid;
   place-items: center;
+  background-size: contain;
 }
 
 main {
