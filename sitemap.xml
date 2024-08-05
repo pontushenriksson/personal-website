@@ -9,13 +9,103 @@
 
 <url>
   <loc>https://pontushenriksson.com/</loc>
-  <lastmod>2024-08-02T01:21:41+00:00</lastmod>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://pontushenriksson.com/assets/images/resume/Pontus_Henriksson-Resume.pdf</loc>
-  <lastmod>2024-08-02T01:21:41+00:00</lastmod>
+  <lastmod>2024-08-05T21:20:06+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/blog/</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/marketplace/</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/podcast/</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/projects/</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/socials/</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/tools/</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/blog/about</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/podcast/phoenix</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/projects/about</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/projects/faq</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/projects/astro-fetch/</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/projects/astro-fetch/about</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/projects/astro-fetch/features</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/projects/astro-fetch/download</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/projects/astro-fetch/faq</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/projects/astro-fetch/privacy-policy</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/projects/astro-fetch/changelog/latest</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pontushenriksson.com/projects/astro-fetch/changelog/all</loc>
+  <lastmod>2024-08-05T21:20:11+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
