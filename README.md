@@ -41,6 +41,7 @@ The marketplace website where people can purchase stuff from me like games, cour
 - Pick one of the two spotify cards that are currently on the page.
 - Create and add a video displaying my work.
 - MAKE STUDYPAL UF ONLINE AND CHANGE TO BRAND COLOR.
+- Create a language switch for resume to view the english/swedish version and if as pdf and docx.
 
 # games-portfolio
 
