@@ -1,48 +1,48 @@
-# Personal website
+# Astro Starter Kit: Basics
 
-A website that holds all of my earlier subdomains and such.
+```sh
+npm create astro@latest -- --template basics
+```
 
-# This needs to be cleaned up
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-A better Readme needs to created and everything inside this repository needs to be redesigned and updated to fit this new workflow.
+![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
-- Projects - This website is not done yet so please return to the main page. (This
-  will hold all projects and not only games thich it was earlier. Games will be
-  under https://pontushenriksson.com/projects#games)
+## 🚀 Project Structure
 
-- All static content should be places in https://github.com/pontushenriksson/static-library and all content should therefore be moved into there before changing anything else.
+Inside of your Astro project, you'll see the following folders and files:
 
-# portfolio-tools
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-Tools like calculator and other stuff that might be useful
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-# portfolio-marketplace
+## 🧞 Commands
 
-The marketplace website where people can purchase stuff from me like games, courses or books etc.
+All commands are run from the root of the project, from a terminal:
 
-## Current bugs:
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-- Certificates doesn't scroll to the top of the section when view all button is clicked? - It maybe does but it feels like it does it only at random.
-- When it scrolls it scrolls up to little. It should probably use a negative offset when using the smoothscroll.
-- The ZippiUX project youtube video is sized weirdly. Make it take up as much space as the other thumbnails.
+## 👀 Want to learn more?
 
-## TODO:
-
-- Create and develop these layouts:
-  - Testimonials
-- Add a new Lotus image instead of the current LLS-vscode image
-- Add animations
-
-# TODO:
-
-- Add a on-hover background change on the buttons so that they get the color of the platform they refer to.
-- Pick one of the two spotify cards that are currently on the page.
-- Create and add a video displaying my work.
-- MAKE STUDYPAL UF ONLINE AND CHANGE TO BRAND COLOR.
-- Create a language switch for resume to view the english/swedish version and if as pdf and docx.
-
-# games-portfolio
-
-The portfolio holding all the games I have created and custom pages for all games.
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
