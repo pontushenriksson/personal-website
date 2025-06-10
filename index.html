@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pontus Henriksson | Web Developer & Programmer | Sundsvall</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background-color: #def3c6;
+        color: #263228;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100dvh;
+        width: 100dvw;
+        gap: 1rem;
+        padding: 2rem;
+      }
+
+      body > div {
+        max-width: 30rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+      }
+
+      img {
+        width: 100%;
+        max-width: 50dvh;
+        height: auto;
+        border-radius: 20%;
+        outline: 0.25rem solid #263228;
+      }
+
+      a {
+        text-decoration: none;
+        color: #263228;
+        font-weight: bold;
+        border: 2px solid #263228;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        transition: 0.3s;
+      }
+
+      a:hover {
+        background-color: #263228;
+        color: #def3c6;
+        border-radius: 5rem;
+        transition: 0.3s;
+      }
+
+      @media screen and (max-width: 1000px) {
+        body {
+          flex-direction: column-reverse;
+          align-items: center;
+        }
+
+        body > div {
+          max-width: 100%;
+          text-align: center;
+          align-items: center;
+        }
+
+        img {
+          max-width: 90%;
+          max-height: 50dvh;
+        }
+      }
+    </style>
+
+    <div class="left">
+      <h1>Pontus Henriksson</h1>
+      <p>
+        Hi, I'm a passionate web developer and designer dedicated to crafting
+        engaging digital experiences. I'm currently working on developing my new
+        portfolio website, but in the meantime you can check out my previous
+        site below. Please note that some features, like images, may not work as
+        intended on the old site.
+      </p>
+      <a href="OLD/dist/index.html">Enter the legacy zone</a>
+    </div>
+    <div class="right"><img src="me.jpeg" alt="Selfie" /></div>
+  </body>
+</html>
